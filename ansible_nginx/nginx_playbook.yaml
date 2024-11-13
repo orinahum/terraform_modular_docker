@@ -1,0 +1,62 @@
+-
+  # Hosts: lists of target hosts that we'll run playbooks on
+  hosts: localhost
+  collections:
+    - community.docker
+  # Tasks: list of tasks that will be executed  within play, including pre and post tasks
+  tasks:
+    - name: Copy nginx files in a block
+      block:
+      - name: Copy nginx configuration
+        community.docker.docker_container_copy_into:
+          container: nginx
+          path: files/nginx.conf
+          container_path: /etc/nginx/nginx.conf
+        become: true
+
+      - name: Copy ssl key
+        community.docker.docker_container_copy_into:
+          container: nginx
+          path: files/server.key
+          container_path: /etc/nginx/server.key
+        become: true
+
+      - name: Copy ssl crt
+        community.docker.docker_container_copy_into:
+          container: nginx
+          path: files/server.crt
+          container_path: /etc/nginx/server.crt
+        become: true
+      notify: copy_nginx
+
+    # Gathers info on the nginx container, and restart it back to the same state (After the files change)
+    - name: Get container information
+      community.docker.docker_container_info:
+        name: nginx
+      register: container_info
+
+    - name: Restart the container
+      community.docker.docker_container:
+        name: nginx
+        state: started
+        restart: true
+
+    - name: Check if user has sudo privileges
+      ansible.builtin.command: "sudo -l"
+      register: sudo_check
+    - name: Display sudo privileges result
+      debug:
+        var: sudo_check.stdout
+
+    # Adds fake DNS to localhost
+    - name: add localhost DNS name
+      become: true
+      lineinfile:
+        search_string: 'hello_alex'
+        path: /etc/hosts
+        line: '127.0.0.1       www.hello_alex.com'
+  handlers:
+    - name: copy_nginx
+      debug:
+        msg: "[+] Configuration files successfully copied to /etc/nginx folder"
+...
