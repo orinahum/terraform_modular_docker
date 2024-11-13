@@ -1,9 +1,13 @@
 # Local .terraform directories
 **/.terraform/*
-
+.terraform.lock.hcl
 # .tfstate files
 *.tfstate
 *.tfstate.*
+*terraform/terraform_apply_output.log*
+## nginx_ip and inventory.ini files is created by the bash script or terraform, no need to keep in GIT
+*nginx_ip.txt*
+*inventory.ini*
 
 # Crash log files
 crash.log
@@ -35,3 +39,9 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# ignore mac hidden folder
+*.DS_Store*
+
+# ignore vscode hidden folder
+.vscode*
