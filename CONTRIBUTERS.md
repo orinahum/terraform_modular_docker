@@ -6,7 +6,7 @@
 
 ## Contributors
 
-<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
 
 <div style="text-align: left; width: 45%;">
   <a href="https://github.com/orinahum">
