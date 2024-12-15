@@ -6,16 +6,16 @@
 
 ## Contributors
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <tr>
-    <td style="text-align: left; padding: 10px; width: 50%;">
+    <td style="text-align: left; padding: 10px; vertical-align: top; width: 50%;">
       <a href="https://github.com/orinahum">
         <h3>Ori Nahum</h3>
       </a>
       <p><strong>Nickname:</strong> <code>orinahum</code></p>
       <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="Contribute 50%" style="margin-top: 10px;">
     </td>
-    <td style="text-align: right; padding: 10px; width: 50%;">
+    <td style="text-align: right; padding: 10px; vertical-align: top; width: 50%;">
       <a href="https://github.com/lavishay-technion">
         <h3>Avishay Layani</h3>
       </a>
