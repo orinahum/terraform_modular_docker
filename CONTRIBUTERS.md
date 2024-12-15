@@ -11,7 +11,7 @@
       </a>
       <strong>NickName</strong>: <code>orinahum</code>
       <br><br>
-      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="50%" style="width: 100%; height: 50%; object-fit: contain;">
+      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="50%" style="width: 100%; height: 25%; object-fit: contain;">
     </td>
     <td style="vertical-align: top; padding: 2%; width: 50%;">
       <a href="https://github.com/lavishay-technion">
@@ -19,7 +19,7 @@
       </a>
       <strong>NickName</strong>: <code>alayani</code>
       <br><br>
-      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="50%" style="width: 100%; height: 50%; object-fit: contain;">
+      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="50%" style="width: 100%; height: 25%; object-fit: contain;">
     </td>
   </tr>
 </table>
