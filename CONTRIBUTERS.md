@@ -1,25 +1,26 @@
 <div align="center">
-  <img src="assets/CONTRIBUTERS.png" alt="Contributors" style="width: 80%; max-width: 600px; height: auto; object-fit: cover;">
+  <img src="assets/CONTRIBUTERS.png" alt="Contributors" style="width: 80%; max-width: 600px; height: auto; margin-bottom: 20px;">
 </div>
 
 ---
 
-<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+## Contributors
 
-<div style="width: 45%; text-align: left;">
-
-### [Ori Nahum](https://github.com/orinahum)
-**Nickname**: `orinahum`  
-![Contribute](https://img.shields.io/badge/Contribute-50%25-blue)
-
-</div>
-
-<div style="width: 45%; text-align: right;">
-
-### [Avishay Layani](https://github.com/lavishay-technion)
-**Nickname**: `alayani`  
-![Contribute](https://img.shields.io/badge/Contribute-50%25-blue)
-
-</div>
-
-</div>
+<table>
+  <tr>
+    <td align="center" style="width: 50%;">
+      <a href="https://github.com/orinahum">
+        <h3>Ori Nahum</h3>
+      </a>
+      <p><strong>Nickname</strong>: <code>orinahum</code></p>
+      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="Contribute 50%">
+    </td>
+    <td align="center" style="width: 50%;">
+      <a href="https://github.com/lavishay-technion">
+        <h3>Avishay Layani</h3>
+      </a>
+      <p><strong>Nickname</strong>: <code>alayani</code></p>
+      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="Contribute 50%">
+    </td>
+  </tr>
+</table>
