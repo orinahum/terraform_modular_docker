@@ -1,7 +1,7 @@
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td colspan="2" style="padding: 2%; text-align: center;">
-      <img src="assets/CONTRIBUTERS.png" alt="CONTRIBUTERS.md" style="width: 80%; height: auto; max-width: 600px;">
+      <img src="assets/CONTRIBUTERS.png" alt="CONTRIBUTERS.md" style="width: 100%; height: auto; object-fit: cover;">
     </td>
   </tr>
   <tr>
@@ -11,7 +11,7 @@
       </a>
       <strong>NickName</strong>: <code>orinahum</code>
       <br><br>
-      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="50%" style="width: 50%; max-width: 200px; height: auto;">
+      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="50%" style="width: 100%; height: auto; object-fit: contain;">
     </td>
     <td style="vertical-align: top; padding: 2%; width: 50%;">
       <a href="https://github.com/lavishay-technion">
@@ -19,7 +19,7 @@
       </a>
       <strong>NickName</strong>: <code>alayani</code>
       <br><br>
-      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="50%" style="width: 50%; max-width: 200px; height: auto;">
+      <img src="https://img.shields.io/badge/Contribute-50%25-blue" alt="50%" style="width: 100%; height: auto; object-fit: contain;">
     </td>
   </tr>
 </table>
